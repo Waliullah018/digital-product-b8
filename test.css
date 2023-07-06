@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menucontainer{
+    background-color: rgb(203, 202, 252);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+}
+.logo{
+    width: 100px;
+}
+.menus{
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    margin-right: 20px;
+    font-size:30px;
+}
+.item:hover{
+    color:red;
+    cursor: pointer;
+}
